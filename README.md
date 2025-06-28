@@ -2,14 +2,14 @@
 NovaHeal is a Hospital Management System designed to efficiently manage patients, doctors, rooms, appointments, prescriptions, and billing using Oracle SQL Plus. It offers a structured and normalized relational database model tailored for real-world hospital operations.
 ___
 ## TABLE OF CONTENTS:
-1. [Aim](#-aim)
-2. [Features Offered](#-features-offered)
-3. [Technologies & Libraries Used](#-technologies--libraries-used)
-4. [Integration / Execution Sequence](#-integration--execution-sequence)
-5. [Tools / Compilers used](#-tools--compilers-used)
-6. [Files Included](#-files-included)
-7. [SQL Concepts used](#-sql-concepts-used)
-8. [Demo Screenshots](#-demo-screenshots)
+1. [Aim](#aim)
+2. [Features Offered](#features-offered)
+3. [Technologies & Libraries Used](#technologies--libraries-used)
+4. [Integration / Execution Sequence](#integration--execution-sequence)
+5. [Tools / Compilers used](#tools--compilers-used)
+6. [Files Included](#files-included)
+7. [SQL Concepts used](#sql-concepts-used)
+8. [Demo Screenshots](#demo-screenshots)
 
 ### AIM:
   To design and implement a robust Hospital Management System named NovaHeal, using Oracle SQL Plus, that effectively handles real-time hospital operations like doctor assignments, room allocations, prescriptions, appointments.
