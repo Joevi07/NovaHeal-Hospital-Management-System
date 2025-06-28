@@ -11,6 +11,7 @@ ___
 7. [SQL Concepts used](#sql-concepts-used)
 8. [Demo Screenshots](#demo-screenshots)
 
+___
 ### AIM:
   To design and implement a robust Hospital Management System named NovaHeal, using Oracle SQL Plus, that effectively handles real-time hospital operations like doctor assignments, room allocations, prescriptions, appointments.
 
