@@ -26,7 +26,7 @@ ___
 + Billing System.
 + Normalized relational database schema.
 + Used CRUD Operations for every entities.
-+ Graphical Reports such as patient inflow, billing trends, medicine stocks using Chart.js graphs.
++ Graphical Reports such as patient inflow, billing trends, medicine stocks using JFreeChart graphs.
 + Automate operations like billing and alerts using PL/SQL triggers.
 + User Interface in NetBeans - Frontend created using Java Swing in Netbeans IDE, integrated with backend (Oracle sql plus database).
 
@@ -35,7 +35,7 @@ ___
 + `Java (Swing GUI)` - For building the desktop interface in NetBeans.
 + `Oracle SQL Plus / Oracle RDMS` - For backend database storage and logic.
 + `PL/SQL` - For writing stored procedures, functions, triggers.
-+ `Chart.js` - For displaying visual graphs and statistics ( used in web-based modules or embedded via browser panels)
++ `JFreeCharts` - For displaying visual graphs and statistics
 + `JDBC` - To connect Java frontend with Oracle SQL backend
 + `NetBeans IDE` - Complete development and integration environment
 ___
@@ -50,7 +50,7 @@ ___
 - Apache NetBeans IDE 25(Java Swing GUI Builder).
 - Oracle SQL Plus.
 - JDK 24 or higher.
-- JDBC and chart.js dependencies
+- JDBC and JFreeChart dependencies and jar files.
 ___
 ### FILES INCLUDED:
 - 📦 Java Source Files (com.mycompany.hospitalmanagement)
