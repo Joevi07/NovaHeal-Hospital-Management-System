@@ -114,7 +114,6 @@ public class Receptionist extends javax.swing.JFrame {
         deletb = new javax.swing.JButton();
         updateb = new javax.swing.JButton();
         viewb = new javax.swing.JButton();
-        statb = new javax.swing.JButton();
         sidePanel = new javax.swing.JPanel();
         homen = new javax.swing.JButton();
         patn = new javax.swing.JButton();
@@ -509,40 +508,26 @@ public class Receptionist extends javax.swing.JFrame {
             }
         });
 
-        statb.setFont(new java.awt.Font("Rockwell", 0, 18)); // NOI18N
-        statb.setIcon(new javax.swing.ImageIcon("C:\\Users\\evija\\OneDrive\\Documents\\NetBeansProjects\\HospitalManagement\\src\\main\\java\\com\\mycompany\\hospitalmanagement\\icons\\icons8-statistics-64.png")); // NOI18N
-        statb.setText("Statistics");
-        statb.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        statb.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        statb.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                statbActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout operationsLayout = new javax.swing.GroupLayout(operations);
         operations.setLayout(operationsLayout);
         operationsLayout.setHorizontalGroup(
             operationsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(operationsLayout.createSequentialGroup()
-                .addGap(36, 36, 36)
+                .addGap(48, 48, 48)
                 .addComponent(insertb)
-                .addGap(76, 76, 76)
+                .addGap(111, 111, 111)
                 .addComponent(deletb)
-                .addGap(67, 67, 67)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 139, Short.MAX_VALUE)
                 .addComponent(updateb)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 67, Short.MAX_VALUE)
+                .addGap(99, 99, 99)
                 .addComponent(viewb)
-                .addGap(66, 66, 66)
-                .addComponent(statb)
-                .addGap(59, 59, 59))
+                .addGap(75, 75, 75))
         );
         operationsLayout.setVerticalGroup(
             operationsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, operationsLayout.createSequentialGroup()
                 .addContainerGap(15, Short.MAX_VALUE)
                 .addGroup(operationsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(statb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(viewb, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(deletb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(insertb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -882,14 +867,6 @@ public class Receptionist extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_viewbActionPerformed
 
-    private void statbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_statbActionPerformed
-        // TODO add your handling code here:
-        mainp.removeAll();
-        mainp.add(statp);
-        mainp.repaint();
-        mainp.revalidate();
-    }//GEN-LAST:event_statbActionPerformed
-
     private void recep_insertActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_recep_insertActionPerformed
         // TODO add your handling code here:
         int recep_id = Integer.parseInt(recep_idti.getText());
@@ -1155,7 +1132,6 @@ public class Receptionist extends javax.swing.JFrame {
     private javax.swing.JButton roomn;
     private javax.swing.JButton servicen;
     private javax.swing.JPanel sidePanel;
-    private javax.swing.JButton statb;
     private javax.swing.JPanel statp;
     private javax.swing.JButton toggle;
     private javax.swing.JButton updateb;
